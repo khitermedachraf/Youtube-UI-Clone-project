@@ -48,3 +48,13 @@ nav {
     border-radius: 50%;
     margin-right: 0;
 }
+
+/* styling the nav-left*/
+.nav-left .menu-icon {
+    width: 25px;
+    margin-right: 25px;
+}
+
+.nav-left .logo {
+    width: 130px;
+}
