@@ -7,10 +7,33 @@
     font-family: 'Poppins', sans-serif;
     box-sizing: border-box;
 }
-a{
+
+a {
     text-decoration: none;
     color: #5a5a5a;
 }
-img{
+
+img {
     cursor: pointer;
+}
+
+/* flexbox for row display*/
+.flex-div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+/* styling the navBar*/
+
+/*stick the nav to the top*/
+nav {
+    padding: 10px 2%;
+    justify-content: space-between;
+    box-shadow: 0 0 1em rgb(0, 0, 0, 0.4);
+    background: white;
+    position: static;
+    top: 0;
+    z-index: 10;
+
 }
