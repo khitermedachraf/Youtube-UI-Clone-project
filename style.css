@@ -35,5 +35,16 @@ nav {
     position: static;
     top: 0;
     z-index: 10;
+}
 
+/* styling the nav-right*/
+.nav-right img {
+    width: 25px;
+    margin-right: 25px;
+}
+
+.nav-right .user-icone {
+    width: 40px;
+    border-radius: 50%;
+    margin-right: 0;
 }
