@@ -58,3 +58,26 @@ nav {
 .nav-left .logo {
     width: 130px;
 }
+
+/* styling the nav-middle*/
+.nav-middle .mic-icon {
+    width: 1em;
+}
+
+.nav-middle .search-box {
+    border: 1px solid #ccc;
+    margin-right: 1em;
+    padding: 8px 12px;
+    border-radius: 25px;
+}
+
+.nav-middle .search-box input {
+    width: 400px;
+    border: 0;
+    outline: 0;
+    background: transparent;
+}
+
+.nav-middle .search-box img {
+    width: 1em;
+}
