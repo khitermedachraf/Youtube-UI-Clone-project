@@ -32,7 +32,7 @@ nav {
     justify-content: space-between;
     box-shadow: 0 0 1em rgb(0, 0, 0, 0.4);
     background: white;
-    position: static;
+    position: sticky;
     top: 0;
     z-index: 10;
 }
@@ -80,4 +80,15 @@ nav {
 
 .nav-middle .search-box img {
     width: 1em;
+}
+
+/* ---------------- styling the sidebar -----------------  */
+.sidebar {
+    background: #fff;
+    width: 15%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    padding-left: 2%;
+    padding-top: 75px;
 }
