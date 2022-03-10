@@ -7,10 +7,77 @@
     font-family: 'Poppins', sans-serif;
     box-sizing: border-box;
 }
-a{
+
+a {
     text-decoration: none;
     color: #5a5a5a;
 }
-img{
+
+img {
     cursor: pointer;
+}
+
+/* flexbox for row display*/
+.flex-div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+/* styling the navBar*/
+
+/*stick the nav to the top*/
+nav {
+    padding: 10px 2%;
+    justify-content: space-between;
+    box-shadow: 0 0 1em rgb(0, 0, 0, 0.4);
+    background: white;
+    position: static;
+    top: 0;
+    z-index: 10;
+}
+
+/* styling the nav-right*/
+.nav-right img {
+    width: 25px;
+    margin-right: 25px;
+}
+
+.nav-right .user-icone {
+    width: 40px;
+    border-radius: 50%;
+    margin-right: 0;
+}
+
+/* styling the nav-left*/
+.nav-left .menu-icon {
+    width: 25px;
+    margin-right: 25px;
+}
+
+.nav-left .logo {
+    width: 130px;
+}
+
+/* styling the nav-middle*/
+.nav-middle .mic-icon {
+    width: 1em;
+}
+
+.nav-middle .search-box {
+    border: 1px solid #ccc;
+    margin-right: 1em;
+    padding: 8px 12px;
+    border-radius: 25px;
+}
+
+.nav-middle .search-box input {
+    width: 400px;
+    border: 0;
+    outline: 0;
+    background: transparent;
+}
+
+.nav-middle .search-box img {
+    width: 1em;
 }
