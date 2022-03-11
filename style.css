@@ -92,3 +92,48 @@ nav {
     padding-left: 2%;
     padding-top: 75px;
 }
+.sidebar p {
+    font-size:small;
+}
+
+.shortcut-links a img {
+    width: 1.3em;
+    margin-right: 1.3em;
+}
+
+.shortcut-links a {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 1em;
+    width: fit-content;
+    flex-wrap: wrap;
+}
+
+.shortcut-links a:first-child {
+color: #ed3833;
+}
+.sidebar hr {
+    border: 0;
+    height: 2px;
+    background: #ccc;
+    width: 85%;
+}
+.subscribed-list h3 {
+    font-size: 0.8em;
+    margin: 10px 0;
+    color: #5a5a5a;
+}
+.subscribed-list a {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 1em;
+    width: fit-content;
+    flex-wrap: wrap;
+}
+.subscribed-list a img {
+    width: 1.5em;
+    border-radius: 50%;
+    margin-right: 1em;
+}
