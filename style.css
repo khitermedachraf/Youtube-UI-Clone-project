@@ -85,7 +85,7 @@ nav {
 /* ---------------- styling the sidebar -----------------  */
 .sidebar {
     background: #fff;
-    width: 15%;
+    width: 13%;
     height: 100vh;
     position: fixed;
     top: 0;
@@ -156,4 +156,20 @@ nav {
 .small-sidebar hr {
     width: 60%;
     margin-bottom: 1em;
+}
+
+/* ---------------- styling the main content-----------------  */
+.container {
+    background: #fff;
+    padding-left: 14%;
+    padding-right: 1%;
+    padding-bottom: 1em;
+    padding-top: 1em;
+}
+.banner{
+    width: 100%;
+}
+.banner img {
+    width: 100%;
+    border-radius: 0.5em;
 }
