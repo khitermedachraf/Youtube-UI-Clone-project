@@ -46,7 +46,7 @@ header {
     margin-right: 25px;
 }
 
-.nav-right .user-icone {
+.nav-right .user-icon {
     width: 40px;
     border-radius: 50%;
     margin-right: 0;
@@ -164,14 +164,14 @@ header {
 /* ---------------- styling the main content-----------------  */
 .container {
     background: #fff;
-    padding-left: 14%;
+    padding-left: 15%;
     padding-right: 1%;
     padding-bottom: 1em;
     padding-top: 1em;
 }
 
 .large-container {
-    padding-left: 6%;
+    padding-left: 5%;
 }
 
 .banner {
@@ -218,4 +218,34 @@ header {
     font-weight: 600;
     display: block;
     margin-bottom: 5px;
+}
+
+/* ---------------- changing  the rules  for  responsive design -----------------  */
+@media screen and (max-width:900px) {
+
+    .menu-icon,
+    .sidebar,
+    .nav-right img,
+    .nav-middle .mic-icon {
+        display: none;
+    }
+
+    .container,
+    .large-container {
+        padding: 0 5%;
+
+    }
+
+    .nav-right .user-icon {
+        display: block;
+        width: 1.75em;
+    }
+
+    .nav-middle .search-box input {
+        width: 225px;
+    }
+
+    .logo {
+        width: 90px;
+    }
 }
